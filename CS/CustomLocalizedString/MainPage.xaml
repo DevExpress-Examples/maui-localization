@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomLocalizedString.MainPage"
+             xmlns:dxsch="clr-namespace:DevExpress.Maui.Scheduler;assembly=DevExpress.Maui.Scheduler"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+             ios:Page.UseSafeArea="True">
+    <ContentPage.Content>
+
+    <dxsch:WorkWeekView
+            FirstDayOfWeek="Monday"
+            ShowWorkTimeOnly="True"
+            SnapToCellsMode="Auto"
+            Start="{Binding StartDate}"
+            TimeScaleInterval="01:00:00"
+            WorkTime="7:00:00-19:00:00"
+             Tap="WorkWeekView_Tap">
+            <dxsch:WorkWeekView.DataStorage>
+            <dxsch:SchedulerDataStorage x:Name="storage">
+                <dxsch:SchedulerDataStorage.DataSource>
+                    <dxsch:DataSource AppointmentLabelsSource="{Binding AppointmentTypes}" AppointmentsSource="{Binding MedicalAppointments}">
+                        <dxsch:DataSource.AppointmentMappings>
+                            <dxsch:AppointmentMappings
+                                End="EndTime"
+                                Id="Id"
+                                LabelId="LabelId"
+                                Location="Location"
+                                Start="StartTime"
+                                Subject="Subject" />
+                        </dxsch:DataSource.AppointmentMappings>
+                        <dxsch:DataSource.AppointmentLabelMappings>
+                            <dxsch:AppointmentLabelMappings
+                                Caption="Caption"
+                                Id="Id"
+                                Color="Color" />
+                        </dxsch:DataSource.AppointmentLabelMappings>
+                    </dxsch:DataSource>
+                </dxsch:SchedulerDataStorage.DataSource>
+            </dxsch:SchedulerDataStorage>
+        </dxsch:WorkWeekView.DataStorage>
+        </dxsch:WorkWeekView>
+    </ContentPage.Content>
+</ContentPage>
