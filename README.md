@@ -21,7 +21,7 @@ The repository contains the following projects:
 | [CustomLanguageResource](/CS/CustomLanguageResource)| The project shows you how to use the resource file to translate our controls in the custom language (Portuguese). |
 | [CustomLocalizedString](/CS/CustomLocalizedString)| The project shows you how to translate a localization string in a custom language (Spanish). |
 
-## Files to Look At
+## Files to Review
 
 - [BasicLocalization/MauiProgram.cs](https://github.com/DevExpress-Examples/maui-localization/blob/22.2.2%2B/CS/BasicLocalization/MauiProgram.cs#L14)
 - [CustomLanguageResource/App.xaml.cs](https://github.com/DevExpress-Examples/maui-localization/blob/22.2.2%2B/CS/CustomLanguageResource/App.xaml.cs#L10)
