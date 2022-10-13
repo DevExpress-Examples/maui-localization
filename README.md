@@ -17,7 +17,7 @@ The repository contains the following projects:
 
 | Project Name | Description |
 |---|---|
-| [BasicLocalization](/CS/BasicLocalization) | The project shows you how to use **out-of-the box** resource files. Refer to the [out-of-the box localization resource file repository]() to get these resource files. |
+| [BasicLocalization](/CS/BasicLocalization) | The project shows you how to use **out-of-the box** resource files. Refer to the [BasicLocalization/Resources](/CS/BasicLocalization/Resources) folder to get these resource files. |
 | [CustomLanguageResource](/CS/CustomLanguageResource)| The project shows you how to use the resource file to translate our controls in the custom language (Portuguese). |
 | [CustomLocalizedString](/CS/CustomLocalizedString)| The project shows you how to translate a localization string in a custom language (Spanish). |
 
