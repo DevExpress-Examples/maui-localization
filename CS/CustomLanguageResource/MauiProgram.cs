@@ -9,6 +9,7 @@ public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
+        Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-BR");
         var builder = MauiApp.CreateBuilder();
         builder
             .UseDevExpress()
