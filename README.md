@@ -5,9 +5,9 @@
 <!-- default badges end -->
 # DevExpress .NET MAUI Controls - Localize Controls
 
-This repository shows you how to localize the [DevExpress .NET MAUI Scheduler Control](https://docs.devexpress.com/MAUI/403734/scheduler-and-calendar/index?v=22.2). 
+This repository shows how to localize the [DevExpress .NET MAUI Scheduler Control](https://docs.devexpress.com/MAUI/403734/scheduler-and-calendar/index?v=22.2). 
 
-DevExpress .NET MAUI Controls contain localization strings that are translated into the following languages **out-of-the box**:
+DevExpress .NET MAUI Controls contain localization strings that are translated into the following languages
 
 * [English (default language)](/CS/BasicLocalization/Resources/DevExpressMaui.resx)
 * [Deutsch](/CS/BasicLocalization/Resources/DevExpressMaui.de.resx)
@@ -17,9 +17,9 @@ The repository contains the following projects:
 
 | Project Name | Description |
 |---|---|
-| [BasicLocalization](/CS/BasicLocalization) | The project shows you how to use **out-of-the box** resource files. Refer to the [BasicLocalization/Resources](/CS/BasicLocalization/Resources) folder to get these resource files. |
-| [CustomLanguageResource](/CS/CustomLanguageResource)| The project shows you how to use the resource file to translate our controls into the custom language (Portuguese). |
-| [CustomLocalizedString](/CS/CustomLocalizedString)| The project shows you how to translate a localization string into a custom language (Spanish). |
+| [BasicLocalization](/CS/BasicLocalization) | The project shows you how to use **built-in** resource files. Refer to the [BasicLocalization/Resources](/CS/BasicLocalization/Resources) folder to get these resource files. |
+| [CustomLanguageResource](/CS/CustomLanguageResource)| The project shows how to use the resource file to translate our controls into a custom language (Portuguese). |
+| [CustomLocalizedString](/CS/CustomLocalizedString)| The project shows how to translate a localization string into a custom language (Spanish). |
 
 ## Files to Review
 
