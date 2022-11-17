@@ -21,6 +21,12 @@ The repository contains the following projects:
 | [CustomLanguageResource](/CS/CustomLanguageResource)| The project shows how to use the resource file to translate our controls into a custom language (Portuguese). |
 | [CustomLocalizedString](/CS/CustomLocalizedString)| The project shows how to translate a localization string into a custom language (Spanish). |
 
+## Requirements
+
+Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
+
+You can also refer to the following YouTube video for more information on how to get started with the DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
+
 ## Files to Review
 
 - [BasicLocalization/MauiProgram.cs](https://github.com/DevExpress-Examples/maui-localization/blob/22.2.2%2B/CS/BasicLocalization/MauiProgram.cs#L14)
