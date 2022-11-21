@@ -13,6 +13,9 @@ DevExpress .NET MAUI Controls contain localization strings that are translated i
 * [Deutsch](/CS/BasicLocalization/Resources/DevExpressMaui.de.resx)
 * [French](/CS/BasicLocalization/Resources/DevExpressMaui.fr.resx)
 
+![image](https://user-images.githubusercontent.com/12169834/203095398-f5a50b4c-94b9-428c-9a67-23a7cf1554d8.png)
+
+
 The repository contains the following projects:
 
 | Project Name | Description |
