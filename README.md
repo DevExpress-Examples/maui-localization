@@ -33,9 +33,10 @@ You can also refer to the following YouTube video for more information on DevExp
 
 ## Files to Review
 
-- [BasicLocalization/MauiProgram.cs](https://github.com/DevExpress-Examples/maui-localization/blob/22.2.2%2B/CS/BasicLocalization/MauiProgram.cs#L14)
-- [CustomLanguageResource/App.xaml.cs](https://github.com/DevExpress-Examples/maui-localization/blob/22.2.2%2B/CS/CustomLanguageResource/App.xaml.cs#L10)
-- [CustomLocalizedString/App.xaml.cs](https://github.com/DevExpress-Examples/maui-localization/blob/22.2.2%2B/CS/CustomLocalizedString/App.xaml.cs#L6)
+- [BasicLocalization/MauiProgram.cs](/CS/BasicLocalization/MauiProgram.cs#L14)
+- [CustomLanguageResource/App.xaml.cs](/CS/CustomLanguageResource/App.xaml.cs#L10)
+- [CustomLocalizedString/App.xaml.cs](/CS/CustomLocalizedString/App.xaml.cs#L8)
+- [LocalizeApplication](/CS/LocalizeApplication/App.xaml.cs#L7)
 
 ## Documentation
 
