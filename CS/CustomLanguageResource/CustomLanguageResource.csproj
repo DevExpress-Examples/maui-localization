@@ -42,18 +42,8 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
-
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
+	<ItemGroup >
 	  <PackageReference Include="DevExpress.Maui.Scheduler" Version="22.2.2-beta" />
-	</ItemGroup>
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">
-	  <PackageReference Include="DevExpress.Maui.Scheduler" Version="22.2.2-beta" />
-	</ItemGroup>
-	<ItemGroup>
-	  <None Remove="DevExpress.Data" />
-	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Include="DevExpress.Data" Version="22.2.2-beta" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Update="Resources\DevExpressMaui.resx">
