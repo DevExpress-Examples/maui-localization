@@ -61,16 +61,4 @@
 	  <Folder Include="Helpers\" />
 	  <Folder Include="Resources\Localization\*" />
 	</ItemGroup>
-	<!-- <ItemGroup>
-	  <EmbeddedResource Include="Resources\ApplicationStrings.Designer.cs">
-	    <DesignTime>True</DesignTime>
-	    <AutoGen>True</AutoGen>
-	    <DependentUpon>ApplicationStrings.resx</DependentUpon>
-	  </EmbeddedResource>
-	  <EmbeddedResource Include="Resources\DevExpressMaui.Designer.cs">
-	    <DesignTime>True</DesignTime>
-	    <AutoGen>True</AutoGen>
-	    <DependentUpon>DevExpressMaui.resx</DependentUpon>
-	  </EmbeddedResource>
-	</ItemGroup> -->
 </Project>
