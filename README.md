@@ -23,7 +23,7 @@ The repository contains the following projects:
 | [BasicLocalization](/CS/BasicLocalization) | Demonstrates the use **built-in** resource files. To view these files, refer to the [BasicLocalization/Resources](/CS/BasicLocalization/Resources) folder. |
 | [CustomLanguageResource](/CS/CustomLanguageResource)| Demonstrates the use of our resource file and translate our controls into a custom language (Portuguese). |
 | [CustomLocalizedString](/CS/CustomLocalizedString)| Demonstrates translation of a localization string into a custom language (Spanish). |
-| LocalizeApplication | Demonstrates the use of localization resources to translate the standard and DevExpress .NET MAUI Controls into Spanish. |
+| [LocalizeApplication](/CS/LocalizeApplication) | Demonstrates the use of localization resources to translate the standard and DevExpress .NET MAUI Controls into Spanish. |
 
 ## Requirements
 
