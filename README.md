@@ -25,6 +25,8 @@ The repository contains the following projects:
 | [CustomLocalizedString](/CS/CustomLocalizedString)| Demonstrates translation of a localization string into a custom language (Spanish). |
 | [LocalizeApplication](/CS/LocalizeApplication) | Demonstrates the use of localization resources to translate standard/DevExpress .NET MAUI Controls into Spanish. |
 
+If you want to share your translation with the community, fork the [Localization Resources](https://github.com/DevExpress-Examples/maui-localization-resources) repository, add your resource file with the translated localization strings, and create a pull request for that repository.
+
 ## Requirements
 
 Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
@@ -45,6 +47,7 @@ You can also refer to the following YouTube video for more information on DevExp
 
 ## More Examples
 
+* [Localization Resources](https://github.com/DevExpress-Examples/maui-localization-resources)
 * [Stocks App](https://github.com/DevExpress-Examples/maui-stocks-mini)
 * [Data Grid](https://github.com/DevExpress-Examples/maui-data-grid-get-started)
 * [Data Form](https://github.com/DevExpress-Examples/maui-data-form-get-started)
