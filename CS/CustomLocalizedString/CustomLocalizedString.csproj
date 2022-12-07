@@ -41,18 +41,7 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
-
 	<ItemGroup>
-	  <MauiImage Remove="Resources\Images\dotnet_bot.svg" />
-	</ItemGroup>
-	<ItemGroup>
-	  <None Remove="DevExpress.Data" />
-	  <None Remove="Resources\Images\" />
-	</ItemGroup>
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
-	  <PackageReference Include="DevExpress.Maui.Scheduler" Version="22.2.2-beta" />
-	</ItemGroup>
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">
 	  <PackageReference Include="DevExpress.Maui.Scheduler" Version="22.2.2-beta" />
 	</ItemGroup>
 	<ItemGroup>
