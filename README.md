@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # DevExpress .NET MAUI Controls - Localize Controls
 
-This repository shows how to localize the [DevExpress .NET MAUI Scheduler Control](https://docs.devexpress.com/MAUI/403734/scheduler-and-calendar/index?v=22.2). 
+This repository demonstrates how to localize the [DevExpress .NET MAUI Scheduler Control](https://docs.devexpress.com/MAUI/403734/scheduler-and-calendar/index?v=22.2). 
 
 DevExpress .NET MAUI Controls contain localization strings that are translated into the following languages:
 
@@ -20,15 +20,15 @@ The repository contains the following projects:
 
 | Project Name | Description |
 |---|---|
-| [BasicLocalization](/CS/BasicLocalization) | The project shows you how to use **built-in** resource files. Refer to the [BasicLocalization/Resources](/CS/BasicLocalization/Resources) folder to get these resource files. |
-| [CustomLanguageResource](/CS/CustomLanguageResource)| The project shows how to use the resource file to translate our controls into a custom language (Portuguese). |
-| [CustomLocalizedString](/CS/CustomLocalizedString)| The project shows how to translate a localization string into a custom language (Spanish). |
+| [BasicLocalization](/CS/BasicLocalization) | Demonstrates the use **built-in** resource files. To view these files, refer to the [BasicLocalization/Resources](/CS/BasicLocalization/Resources) folder. |
+| [CustomLanguageResource](/CS/CustomLanguageResource)| Demonstrates the use of our resource file and translate our controls into a custom language (Portuguese). |
+| [CustomLocalizedString](/CS/CustomLocalizedString)| Demonstrates translation of a localization string into a custom language (Spanish). |
 
 ## Requirements
 
 Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
 
-You can also refer to the following YouTube video for more information on how to get started with the DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
+You can also refer to the following YouTube video for more information on DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
 
 ## Files to Review
 
