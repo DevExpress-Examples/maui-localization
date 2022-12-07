@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:dxc="clr-namespace:DevExpress.Maui.Controls;assembly=DevExpress.Maui.Controls">
+
+    <Style TargetType="Shell" ApplyToDerivedTypes="True">
+        <Setter Property="Shell.BackgroundColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}" />
+    </Style>
+    <Style TargetType="dxc:SimpleButton" ApplyToDerivedTypes="True">
+        <Setter Property="dxc:SimpleButton.PressedBackgroundColor" Value="{AppThemeBinding Light={StaticResource PressedButtonWhite}, Dark={StaticResource PressedButtonDark}}" />
+    </Style>
+</ResourceDictionary>

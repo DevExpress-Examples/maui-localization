@@ -1,0 +1,83 @@
+﻿<ContentPage
+    x:Class="LocalizeApplication.Views.Collection"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:dxcv="clr-namespace:DevExpress.Maui.CollectionView;assembly=DevExpress.Maui.CollectionView"
+    xmlns:dxc="clr-namespace:DevExpress.Maui.Controls;assembly=DevExpress.Maui.Controls"
+    xmlns:localization="clr-namespace:LocalizeApplication.Resources.Localization"
+    xmlns:compatibility="clr-namespace:Microsoft.Maui.Controls.Compatibility;assembly=Microsoft.Maui.Controls"
+    Title="{x:Static localization:ApplicationStrings.ViewTitle}">
+    <ContentPage.Content>
+        <Grid>
+            <dxcv:DXCollectionView x:Name="collectionView"
+                                   ItemsSource="{Binding Calls}">
+                <dxcv:DXCollectionView.GroupDescription>
+                    <dxcv:GroupDescription FieldName="CallDate" GroupInterval="DateRange" SortOrder="Descending"  />
+                </dxcv:DXCollectionView.GroupDescription>
+                <dxcv:DXCollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <dxc:SimpleButton Clicked="emailClicked" BackgroundColor="Transparent"
+                                          Padding="{OnIdiom Phone='8,7', Tablet='16,14,37,14'}"
+                                          CornerRadius="16" Margin="8,0,8,0">
+                            <Grid ColumnSpacing="16">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <compatibility:RelativeLayout Grid.Column="0">
+                                    <Ellipse HorizontalOptions="Start"
+                                             VerticalOptions="StartAndExpand"
+                                             WidthRequest="50"
+                                             HeightRequest="50"
+                                             Fill="{Binding ContactColor}" />
+                                    <Label BackgroundColor="Transparent"
+                                            FontAttributes="None" 
+                                            FontSize="28"
+                                            HeightRequest="50"
+                                            HorizontalOptions="Start"
+                                            HorizontalTextAlignment="Center"
+                                            Margin="0"
+                                            TextColor="White"
+                                            VerticalOptions="StartAndExpand"
+                                            VerticalTextAlignment="Center"
+                                            WidthRequest="50"
+                                            Text="{Binding ContactAvatarText}" />
+                                </compatibility:RelativeLayout>
+                                <StackLayout Grid.Column="1"
+                                             Orientation="Vertical"
+                                             VerticalOptions="StartAndExpand"
+                                             Spacing="2">
+                                    <Label Text="{Binding ContactName}"
+                                           MaxLines="1"
+                                           FontSize="16"
+                                           FontAttributes="Bold" />
+                                    <Label Text="{Binding ContactPhone}"
+                                           MaxLines="1"
+                                           LineBreakMode="TailTruncation" />
+                                    <HorizontalStackLayout Spacing="6">
+                                        <Label Text="←"
+                                               MaxLines="1"
+                                               LineBreakMode="TailTruncation" >
+                                            <Label.Triggers>
+                                                <DataTrigger Binding="{Binding CallType}" Value="Incoming" TargetType="Label">
+                                                    <Setter Property="Text" Value="→"/>
+                                                </DataTrigger>
+                                            </Label.Triggers>
+                                            </Label>
+                                        <Label Text="{Binding NumberType}"
+                                               MaxLines="1"
+                                               LineBreakMode="TailTruncation" />
+                                    </HorizontalStackLayout>
+                                </StackLayout>
+                                <Label Grid.Column="2"
+                                       Text="{Binding CallDate, StringFormat='{}{0:M.dd}'}"
+                                       VerticalOptions="StartAndExpand" />
+                            </Grid>
+                        </dxc:SimpleButton>
+                    </DataTemplate>
+                </dxcv:DXCollectionView.ItemTemplate>
+            </dxcv:DXCollectionView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
