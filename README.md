@@ -36,7 +36,7 @@ You can also refer to the following YouTube video for more information on DevExp
 - [BasicLocalization/MauiProgram.cs](/CS/BasicLocalization/MauiProgram.cs#L14)
 - [CustomLanguageResource/App.xaml.cs](/CS/CustomLanguageResource/App.xaml.cs#L10)
 - [CustomLocalizedString/App.xaml.cs](/CS/CustomLocalizedString/App.xaml.cs#L8)
-- [LocalizeApplication](/CS/LocalizeApplication/App.xaml.cs#L7)
+- [LocalizeApplication/App.xaml.cs](/CS/LocalizeApplication/App.xaml.cs#L7)
 
 ## Documentation
 
