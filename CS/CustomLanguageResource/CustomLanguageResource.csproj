@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net7.0-android;net7.0-ios</TargetFrameworks>
@@ -43,7 +43,7 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 	<ItemGroup >
-	  <PackageReference Include="DevExpress.Maui.Scheduler" Version="22.2.2-beta" />
+	  <PackageReference Include="DevExpress.Maui.Scheduler" Version="22.2.*" />
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Update="Resources\DevExpressMaui.resx">
