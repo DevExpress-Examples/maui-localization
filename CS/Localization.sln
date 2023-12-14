@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 17.0.31611.283
@@ -8,6 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLanguageResource", "CustomLanguageResource\CustomLanguageResource.csproj", "{3D2F9E68-FC99-477E-922C-6B4E6635792D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLocalizedString", "CustomLocalizedString\CustomLocalizedString.csproj", "{B124685D-D881-4E2C-9312-AE106EF7DC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizeApplication", "LocalizeApplication\LocalizeApplication.csproj", "{75D1AC1D-AB75-41D4-B04C-71B9B8343AA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,12 @@ Global
 		{B124685D-D881-4E2C-9312-AE106EF7DC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B124685D-D881-4E2C-9312-AE106EF7DC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B124685D-D881-4E2C-9312-AE106EF7DC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D1AC1D-AB75-41D4-B04C-71B9B8343AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D1AC1D-AB75-41D4-B04C-71B9B8343AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D1AC1D-AB75-41D4-B04C-71B9B8343AA5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{75D1AC1D-AB75-41D4-B04C-71B9B8343AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D1AC1D-AB75-41D4-B04C-71B9B8343AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D1AC1D-AB75-41D4-B04C-71B9B8343AA5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
