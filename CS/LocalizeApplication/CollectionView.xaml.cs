@@ -13,7 +13,7 @@ public partial class Collection : ContentPage {
 
     void emailClicked(System.Object sender, System.EventArgs e)
     {
-        var clickeditem = (sender as SimpleButton).BindingContext as CallData;
+        var clickeditem = (sender as DXButton).BindingContext as CallData;
         DisplayAlert(clickeditem.ContactName, clickeditem.ContactPhone + "\n" + clickeditem.CallDate, "OK");
     }
 }
