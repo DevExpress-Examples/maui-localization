@@ -1,6 +1,6 @@
 using LocalizeApplication.ViewModel;
 using LocalizeApplication.Model;
-using DevExpress.Maui.Controls;
+using DevExpress.Maui.Core;
 
 namespace LocalizeApplication.Views;
 
