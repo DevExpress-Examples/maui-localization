@@ -17,8 +17,8 @@
                 <dxcv:DXCollectionView.ItemTemplate>
                     <DataTemplate>
                         <dx:DXButton Clicked="emailClicked" BackgroundColor="Transparent"
-                                          Padding="{OnIdiom Phone='8,7', Tablet='16,14,37,14'}"
-                                          CornerRadius="16" Margin="8,0,8,0">
+                                    Padding="{OnIdiom Phone='8,7', Tablet='16,14,37,14'}"
+                                    CornerRadius="16" Margin="8,0,8,0">
                             <Grid ColumnSpacing="16">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="50" />
@@ -27,10 +27,10 @@
                                 </Grid.ColumnDefinitions>
                                 <compatibility:RelativeLayout Grid.Column="0">
                                     <Ellipse HorizontalOptions="Start"
-                                             VerticalOptions="StartAndExpand"
-                                             WidthRequest="50"
-                                             HeightRequest="50"
-                                             Fill="{Binding ContactColor}" />
+                                            VerticalOptions="StartAndExpand"
+                                            WidthRequest="50"
+                                            HeightRequest="50"
+                                            Fill="{Binding ContactColor}" />
                                     <Label BackgroundColor="Transparent"
                                             FontAttributes="None" 
                                             FontSize="28"
@@ -45,17 +45,17 @@
                                             Text="{Binding ContactAvatarText}" />
                                 </compatibility:RelativeLayout>
                                 <dx:DXStackLayout Grid.Column="1"
-                                             Orientation="Vertical"
-                                             VerticalOptions="StartAndExpand"
-                                             Spacing="2">
+                                            Orientation="Vertical"
+                                            VerticalOptions="StartAndExpand"
+                                            ItemSpacing="2">
                                     <Label Text="{Binding ContactName}"
-                                           MaxLines="1"
-                                           FontSize="16"
-                                           FontAttributes="Bold" />
+                                            MaxLines="1"
+                                            FontSize="16"
+                                            FontAttributes="Bold" />
                                     <Label Text="{Binding ContactPhone}"
-                                           MaxLines="1"
-                                           LineBreakMode="TailTruncation" />
-                                    <HorizontalStackLayout Spacing="6">
+                                            MaxLines="1"
+                                            LineBreakMode="TailTruncation" />
+                                    <dx:DXStackLayout Orientation="Horizontal" ItemSpacing="6">
                                         <Label Text="←"
                                                MaxLines="1"
                                                LineBreakMode="TailTruncation" >
@@ -64,11 +64,11 @@
                                                     <Setter Property="Text" Value="→"/>
                                                 </DataTrigger>
                                             </Label.Triggers>
-                                            </Label>
+                                        </Label>
                                         <Label Text="{Binding NumberType}"
                                                MaxLines="1"
                                                LineBreakMode="TailTruncation" />
-                                    </HorizontalStackLayout>
+                                    </dx:DXStackLayout>
                                 </dx:DXStackLayout>
                                 <Label Grid.Column="2"
                                        Text="{Binding CallDate, StringFormat='{}{0:M.dd}'}"
