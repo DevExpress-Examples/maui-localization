@@ -14,6 +14,10 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseDevExpress()
+            .UseDevExpressCollectionView()
+            .UseDevExpressControls()
+            .UseDevExpressEditors()
+            .UseDevExpressScheduler()
             .UseMauiApp<App>()
             .ConfigureFonts(fonts =>
             {

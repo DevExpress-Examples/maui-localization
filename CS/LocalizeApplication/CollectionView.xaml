@@ -2,19 +2,18 @@
     x:Class="LocalizeApplication.Views.Collection"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:dxcv="clr-namespace:DevExpress.Maui.CollectionView;assembly=DevExpress.Maui.CollectionView"
-    xmlns:dx="clr-namespace:DevExpress.Maui.Core;assembly=DevExpress.Maui.Core"
+    xmlns:dx="http://schemas.devexpress.com/maui"
     xmlns:localization="clr-namespace:LocalizeApplication.Resources.Localization"
     xmlns:compatibility="clr-namespace:Microsoft.Maui.Controls.Compatibility;assembly=Microsoft.Maui.Controls"
     Title="{x:Static localization:ApplicationStrings.ViewTitle}">
     <ContentPage.Content>
         <Grid>
-            <dxcv:DXCollectionView x:Name="collectionView"
+            <dx:DXCollectionView x:Name="collectionView"
                                    ItemsSource="{Binding Calls}">
-                <dxcv:DXCollectionView.GroupDescription>
-                    <dxcv:GroupDescription FieldName="CallDate" GroupInterval="DateRange" SortOrder="Descending"  />
-                </dxcv:DXCollectionView.GroupDescription>
-                <dxcv:DXCollectionView.ItemTemplate>
+                <dx:DXCollectionView.GroupDescription>
+                    <dx:GroupDescription FieldName="CallDate" GroupInterval="DateRange" SortOrder="Descending"  />
+                </dx:DXCollectionView.GroupDescription>
+                <dx:DXCollectionView.ItemTemplate>
                     <DataTemplate>
                         <dx:DXButton Clicked="emailClicked" BackgroundColor="Transparent"
                                     Padding="{OnIdiom Phone='8,7', Tablet='16,14,37,14'}"
@@ -76,8 +75,8 @@
                             </Grid>
                         </dx:DXButton>
                     </DataTemplate>
-                </dxcv:DXCollectionView.ItemTemplate>
-            </dxcv:DXCollectionView>
+                </dx:DXCollectionView.ItemTemplate>
+            </dx:DXCollectionView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
