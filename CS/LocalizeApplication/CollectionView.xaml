@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:dx="http://schemas.devexpress.com/maui"
     xmlns:localization="clr-namespace:LocalizeApplication.Resources.Localization"
-    xmlns:compatibility="clr-namespace:Microsoft.Maui.Controls.Compatibility;assembly=Microsoft.Maui.Controls"
     Title="{x:Static localization:ApplicationStrings.ViewTitle}">
     <ContentPage.Content>
         <Grid>
@@ -24,25 +23,25 @@
                                     <ColumnDefinition Width="*" />
                                     <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
-                                <compatibility:RelativeLayout Grid.Column="0">
-                                    <Ellipse HorizontalOptions="Start"
-                                            VerticalOptions="StartAndExpand"
-                                            WidthRequest="50"
-                                            HeightRequest="50"
-                                            Fill="{Binding ContactColor}" />
-                                    <Label BackgroundColor="Transparent"
-                                            FontAttributes="None" 
-                                            FontSize="28"
-                                            HeightRequest="50"
-                                            HorizontalOptions="Start"
-                                            HorizontalTextAlignment="Center"
-                                            Margin="0"
-                                            TextColor="White"
-                                            VerticalOptions="StartAndExpand"
-                                            VerticalTextAlignment="Center"
-                                            WidthRequest="50"
-                                            Text="{Binding ContactAvatarText}" />
-                                </compatibility:RelativeLayout>
+                                <Ellipse Grid.RowSpan="2" 
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="StartAndExpand"
+                                        WidthRequest="50"
+                                        HeightRequest="50"
+                                        Fill="{Binding ContactColor}" />
+                                <Label Grid.RowSpan="2" 
+                                        BackgroundColor="Transparent"
+                                        FontAttributes="None" 
+                                        FontSize="28"
+                                        HeightRequest="50"
+                                        HorizontalOptions="Start"
+                                        HorizontalTextAlignment="Center"
+                                        Margin="0"
+                                        TextColor="White"
+                                        VerticalOptions="StartAndExpand"
+                                        VerticalTextAlignment="Center"
+                                        WidthRequest="50"
+                                        Text="{Binding ContactAvatarText}" />
                                 <dx:DXStackLayout Grid.Column="1"
                                             Orientation="Vertical"
                                             VerticalOptions="StartAndExpand"

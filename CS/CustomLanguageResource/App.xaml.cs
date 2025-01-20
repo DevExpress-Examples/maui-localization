@@ -9,8 +9,10 @@ public partial class App : Application
 	{
         Localizer.StringLoader = new ResourceStringLoader(new ResourceManager ("CustomLanguageResource.Resources.DevExpressMaui", (typeof(App).Assembly)));
         InitializeComponent();
+	}
 
-		MainPage = new AppShell();
+	protected override Window CreateWindow(IActivationState activationState) {
+		return new Window(new AppShell());
 	}
 }
 
