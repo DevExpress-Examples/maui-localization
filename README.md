@@ -6,7 +6,7 @@
 <!-- default badges end -->
 # DevExpress .NET MAUI Controls - Localize Controls
  
-This repository demonstrates how to localize the [DevExpress .NET MAUI Scheduler Control](https://docs.devexpress.com/MAUI/403734/scheduler-and-calendar/index?v=22.2). 
+This repository demonstrates how to localize the [DevExpress .NET MAUI Scheduler Control](https://docs.devexpress.com/MAUI/403734/scheduler-and-calendar/). 
 
 DevExpress .NET MAUI Controls contain localization strings that are translated into the following languages:
 
