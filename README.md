@@ -28,12 +28,6 @@ The repository contains the following projects:
 
 If you want to share your translation with the community, fork the [Localization Resources](https://github.com/DevExpress-Examples/maui-localization-resources) repository, add your resource file with the translated localization strings, and create a pull request for that repository.
 
-## Requirements
-
-Please register the DevExpress NuGet Gallery in Visual Studio to restore the NuGet packages used in this solution. See the following topic for more information: [Get Started with DevExpress Mobile UI for .NET MAUI](https://docs.devexpress.com/MAUI/403249/get-started).
-
-You can also refer to the following YouTube video for more information on DevExpress .NET MAUI Controls: [Setting up a .NET MAUI Project](https://www.youtube.com/watch?v=juJvl5UicIQ).
-
 ## Files to Review
 
 - [BasicLocalization/MauiProgram.cs](/CS/BasicLocalization/MauiProgram.cs#L14)
